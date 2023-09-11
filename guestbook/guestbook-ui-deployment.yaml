@@ -13,6 +13,10 @@ spec:
       labels:
         app: guestbook-ui
     spec:
+      volumes:
+        - name: json-configmap-volume
+          configMap:
+            name: json-configmap
       containers:
       - image: gcr.io/heptio-images/ks-guestbook-demo:0.2
         name: guestbook-ui
