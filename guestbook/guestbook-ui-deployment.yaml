@@ -22,3 +22,6 @@ spec:
         name: guestbook-ui
         ports:
         - containerPort: 80
+        volumeMounts:
+        - mountPath: /etc/config
+          name: json-configmap-volume
