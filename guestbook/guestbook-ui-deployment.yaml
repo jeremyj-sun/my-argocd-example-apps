@@ -13,7 +13,7 @@ spec:
       labels:
         app: guestbook-ui
       annotations:
-        configmap.json-configmap.hash: "abcde12345"
+        configmap.json-configmap.hash: "abcdef123456"
     spec:
       volumes:
         - name: json-configmap-volume
