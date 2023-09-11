@@ -11,7 +11,8 @@ data:
         "Input_Environment_Location" : "raw-data",
         "Output_Environment_Type" : "bigquery",
         "Output_Environment_Location" : "test_ds",
-        "report_location": "reports"
+        "report_location": "reports",
+        "jeremy": "jeremy-test"
     }
   config_prod.json: |
     {
