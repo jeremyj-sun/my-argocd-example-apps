@@ -12,6 +12,8 @@ spec:
     metadata:
       labels:
         app: guestbook-ui
+      annotations:
+        configmap.json-configmap.hash: "abcd1234"
     spec:
       volumes:
         - name: json-configmap-volume
